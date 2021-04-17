@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+
+
+/*************** Side Nav *************** */
+nav.firstnav{
+    width: 40%;
+    
+    position: absolute;
+    height: 100%;
+    
+    overflow: auto;
+}
+nav.secondnav{
+    margin-left: 550px;
+    width: 30%;
+    
+    position: absolute;
+    height: 100%;
+    
+    
+    overflow: auto;
+}
+
+label{
+    color: rgb(255, 94, 0);
+}
+
+
+.title{
+    margin-left: 200px;
+    color: rgb(207, 41, 29);
+}
+.title2{
+    margin-left: 50px;
+}
+.imgg{
+    width: 30%;
+    margin: 10px auto;
+    display: block;
+}
+.border1{
+    background-color: rgb(172, 196, 194);
+}
+ul li{
+    color:rgb(201, 69, 69)
+}
+ul{
+    list-style: none;
+}
+li::before{
+    content: " • ";
+    color: black;
+}
+
+
+/* -------------------------------------------------
+Second Nav */
+
